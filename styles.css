@@ -1,4 +1,33 @@
 body {
     color: white;
     background: rgb(226, 171, 171);
+    margin: 0px;
+    font-family: "Vollkorn", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(250, 224, 244);
+    padding: 20px;
+    font-size: 45px;
+    color: rgb(250, 224, 244);
+}
+
+section {
+    background: rgb(226, 171, 171);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: left;
+}
+
+.chamdada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px
 }
