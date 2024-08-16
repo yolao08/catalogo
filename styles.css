@@ -3,6 +3,7 @@ body {
     background: rgb(226, 171, 171);
     margin: 0px;
     font-family: "Vollkorn", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -13,14 +14,14 @@ header {
 }
 
 .chamada {
-    background: rgb(226, 171, 171);
+    background:  rgb(226, 171, 171);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
-.chamdada-texto {
+.chamada-texto {
     margin-right: 5%;
 }
 
@@ -29,22 +30,31 @@ h1 {
 }
 
 p {
-    font-size: 20px
+    font-size: 20px;
 }
 
-img {
-    height: 200px;
-  }
-
-  .categoria-videos {
-    opacity: 0.5;
-    height: 200px;
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
-  }
+}
 
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
-  }
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(236, 49, 112);
+}
+
+.categoria h2 {
+    color:rgb(170, 56, 136);
+}
